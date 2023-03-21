@@ -56,7 +56,7 @@ wget "api.server.openc7.com/daemon/c7-qt-linux.tar.gz" -O c7-qt-linux.tar.gz
 ```
 
 Manually Install
-[Download GT YDLC](https://api.server.openc7.com/daemon/c7-qt-linux.tar.gz)
+[Download GT C7](https://api.server.openc7.com/daemon/c7-qt-linux.tar.gz)
 
 # Extract the tar files.
 
