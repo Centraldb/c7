@@ -27,7 +27,7 @@ sudo apt-get upgrade
  ```
  sudo apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler unzip software-properties-common
 ```
-# Install Berkeley DB for C7 (Yeahreum).
+# Install Berkeley DB for C7 (Central Generation Seven).
 
 ```
  sudo add-apt-repository ppa:bitcoin/bitcoin
@@ -42,7 +42,7 @@ sudo apt-get upgrade
 ```
 
 
-# Download the C7 and tools from Yeahreum.
+# Download the C7 and tools from Openc7.
 
 
 ```
@@ -70,7 +70,7 @@ tar -xzvf c7-qt-linux.tar.gz
 
 # Install the OpenC7 and tools.
 ```
- sudo mv yeahreum c7-cli c7-tx /usr/bin/
+ sudo mv c7 c7-cli c7-tx /usr/bin/
 ```
 # Create the config file.
 ```
