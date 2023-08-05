@@ -63,34 +63,35 @@ Manually Install
 # Extract the tar files.
 
 ```
-tar -xzvf c7-daemon-linux.tar.gz
+tar -xzvf centraldatabase-daemon-linux.tar.gz
 ```
 
 ```
-tar -xzvf c7-qt-linux.tar.gz
+tar -xzvf centraldatabase-qt-linux.tar.gz
 ```
 
 # Install the OpenC7 and tools.
 ```
- sudo mv c7 c7-cli c7-tx /usr/bin/
+sudo mv centraldatabased centraldatabase-cli centraldatabase-tx /usr/bin/
 ```
 # Create the config file.
 ```
- mkdir $HOME/.c7
+mkdir $HOME/.centraldatabase
  ```
  ```
- nano $HOME/.c7/c7.conf
+nano $HOME/.centraldatabase/centraldatabase.conf -t
 ```
 
 # Paste the following lines in c7.conf.
 
 
 ```
- rpcuser=???
- rpcpassword=????
- rpcallowip=127.0.0.1
- rpcport=10037
- listen=1
- server=1
- addnode=node.openc7.com
+rpcuser=rpc_centraldatabase
+rpcpassword=dR2oBQ3K1zYMZQtJFZeAerhWxaJ5Lqeq9J2
+rpcbind=127.0.0.1
+rpcallowip=127.0.0.1
+listen=1
+server=1
+txindex=1
+daemon=1
 ```
